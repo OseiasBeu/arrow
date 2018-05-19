@@ -322,7 +322,7 @@ function loadGame(){
                                 document.body.removeEventListener("mousedown",shoot);
                                 document.body.removeEventListener("keydown",shoot);
                                 startPage.style.display = "block";
-                                document.getElementById("title").innerHTML = "Your Score<br>"+totalScore;
+                                document.getElementById("title").innerHTML = "Sua pontuação<br>"+totalScore;
                                 if(bestScore < totalScore){
                                     bestScore = totalScore;
                                     try{
